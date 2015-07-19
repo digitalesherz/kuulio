@@ -1,0 +1,75 @@
+doctype
+html
+	head
+		meta(charset="utf-8")
+		meta(content="width=device-width, initial-scale=1.0;", name="viewport")
+		link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
+		link(rel="stylesheet", href="main.css")
+		meta(name='language', content='de-DE')
+		meta(name='description', content='')
+		meta(name='keywords', content='')
+		meta(name='revisit-after', content='7 days')
+		meta(name='robots', content='index,follow')
+		|   <!-- Facebeook/Google+ OpenGraph -->
+		meta(name='publisher', content='')
+		|   <!-- http://opengraphprotocol.org -->
+		meta(name='copyright', content='')
+		|   <!-- https://developers.facebook.com/docs/reference/opengraph/object-type/ -->
+		meta(name='author', content='')
+		|   <!-- https://developers.facebook.com/docs/payments/product/ -->
+		meta(name='version', content='')
+		|   <!-- use for website, product, fitness, music, video, books, place, article, profile, object -->
+		meta(property='fb:admins', content='')
+		meta(property='fb:page_id', content='')
+		meta(property='og:type', content='website')
+		meta(property='og:title', content='')
+		meta(property='og:url', content='')
+		meta(property='og:image', content='')
+		meta(name='twitter:card', content='product')  
+		|   <!-- Twitter Card: https://dev.twitter.com/docs/cards/ -->
+		meta(name='twitter:url', content='https://twitter.siglercompanies.com')  
+		|   <!-- use for Summary, Gallery, App, Player, Product -->
+		meta(name='twitter:site', content='@twitter')
+		meta(name='twitter:creator', content='@twitter')
+		meta(name='twitter:title', content='Logo Mug')
+		meta(name='twitter:description', content='The perfect pick-me-up. Enjoy your favorite blend with this coffee mug featuring the Twitter logo. Make every work day good to the last drop.')
+		meta(name='twitter:image', content='https://twitter.siglercompanies.com/graphics/00000001/mug-new.jpg')
+		meta(name='twitter:data1', content='$3')
+		meta(name='twitter:label1', content='Price')
+		meta(name='twitter:data2', content='Black')
+		meta(name='twitter:label2', content='Color')
+		|   <!-- Pinned Sites allow your users to keep their favorite websites open, running, and easily accessible. -->
+		|   <!-- You can set the icon that the user sees when they pin your site by providing a vector image. Use 100% black -->
+		|   <!-- for all vectors with a transparent background in SVG format. -->
+		|   <!-- To specify the color the icon should be displayed in, add the theme-color meta element to your webpage -->
+		link(rel='icon', sizes='any', mask='true', href='website_icon.svg')
+		meta(name='theme-color', content='#990000')
+		|   <!-- Favicons and Homescreen image/titles, if you don't want Safari on iOS add any effects on the "Web Clip Icon" use "apple-touch-icon-precomposed" as rel -->
+		link(rel='icon', href='/images/favicons/128x128.png', sizes='128x128') 
+		|  <!-- Android -->
+		link(rel='icon', href='/images/favicons/192x192.png', sizes='192x192') 
+		|  <!-- Android HighRes -->
+		link(rel='apple-touch-icon', href='/images/favicons/57x57.png', sizes='57x57') 
+		|  <!-- iOS 6 iPhone -->
+		link(rel='apple-touch-icon', href='/images/favicons/72x72.png', sizes='72x72') 
+		|  <!-- iOS 6 iPad -->
+		link(rel='apple-touch-icon', href='/images/favicons/76x76.png', sizes='76x76') 
+		|  <!-- iOS 7 iPad -->
+		link(rel='apple-touch-icon', href='/images/favicons/114x114.png', sizes='114x114') 
+		|  <!-- iOS 6 iPhone (retina) -->
+		link(rel='apple-touch-icon', href='/images/favicons/120x120.png', sizes='120x120') 
+		|  <!-- iOS 7 iPhone (retina) -->
+		link(rel='apple-touch-icon', href='/images/favicons/144x144.png', sizes='144x144') 
+		|  <!-- iOS 6 iPad (retina) -->
+		link(rel='apple-touch-icon', href='/images/favicons/152x152.png', sizes='152x152') 
+		|  <!-- iOS 7 iPad (retina) -->
+		link(rel='shortcut icon', href='/images/favicons/fi_favicon.ico', type='image/x-icon') 
+		|   <!-- iOS Bookmark Name -->
+		meta(name='apple-mobile-web-app-title', content='Lorem ipsum') 
+		|   <!-- Window 8 Tile Bookmark -->
+		meta(name='application-name', content='Lorem ipsum')
+		meta(name='msapplication-TileImage', content='/images/favicons/152x152.png')
+		meta(name='msapplication-TileColor', content='#CC0000')
+	
+	body
+		!= yield
